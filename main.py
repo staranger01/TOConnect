@@ -1,9 +1,7 @@
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-import os
 import pylab as plt
 import geopandas as gpd
 from geopy.geocoders import Nominatim
