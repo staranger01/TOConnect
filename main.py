@@ -12,7 +12,7 @@ from PIL import Image
 
 
 try:
-   
+    with st.echo(code_location='below'):
         st.title("Discover GTA")
         #DATA CLEANING/PROCESSING
         province = ["Ontario"]
