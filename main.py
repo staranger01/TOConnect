@@ -14,6 +14,8 @@ from PIL import Image
 try:
     
     st.title("Discover GTA")
+    
+    st.title("Discover 222")
     #DATA CLEANING/PROCESSING
     province = ["Ontario"]
     areas = ["Oshawa", "Ajax", "Brampton", "Markham", "Pickering", "Mississsauga", "Toronto"]
@@ -373,4 +375,4 @@ try:
 
 except:
   
-  pass
+  st.title("Discover error")
