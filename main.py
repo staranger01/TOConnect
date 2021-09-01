@@ -185,7 +185,7 @@ try:
  
 
     #UX
-    st.sidebar.header("Select Region")
+    #st.sidebar.header("Select Region")
     st.sidebar.subheader("Relevant maps will show once region is selected")
 
     AREAS_SELECTED = st.sidebar.multiselect('', areas)
