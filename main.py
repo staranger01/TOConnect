@@ -373,4 +373,4 @@ try:
 
 except:
     
-    st.title("Discover error")
+    pass
