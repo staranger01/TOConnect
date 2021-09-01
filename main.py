@@ -26,7 +26,7 @@ try:
 
         file_path = 'data/neighbourhood-crime-rates.csv'
         file_path_two = 'data/health_services.csv'
-        file_path_3 = 'data/ontbuilds-all-20210604.csv '
+        file_path_3 = 'data/ontbuilds-all-20210604.csv'
         df = pd.read_csv('data/education.csv')
     
         canada = gpd.read_file("./data/gfsa000b11a_e.shp")
