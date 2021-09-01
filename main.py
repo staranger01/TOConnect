@@ -12,10 +12,8 @@ from PIL import Image
 
 
 try:
-    with st.echo(code_location='below'):
+   
         st.title("Discover GTA")
-        
-        st.title("Discover 222")
         #DATA CLEANING/PROCESSING
         province = ["Ontario"]
         areas = ["Oshawa", "Ajax", "Brampton", "Markham", "Pickering", "Mississsauga", "Toronto"]
